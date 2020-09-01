@@ -1,3 +1,3 @@
 #!/bin/bash
-python make_hdf5.py --dataset I128 --batch_size 256 --data_root data
-python calculate_inception_moments.py --dataset I128_hdf5 --data_root data
+python make_hdf5.py --dataset logo_data --batch_size 256 --data_root '/home/logograte/Desktop/stylegan2/Pinterest_scraper/svg_icons_png_categories'
+python calculate_inception_moments.py --dataset logo_data_hdf5 --data_root '/home/logograte/Desktop/stylegan2/Pinterest_scraper/svg_icons_png_categories'
